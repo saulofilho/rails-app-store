@@ -25,6 +25,13 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'bulma-rails'
+gem 'simple_form'
+gem 'devise'
+gem 'gravatar_image_tag'
+gem 'carrierwave'
+gem 'mini_magick'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
@@ -50,6 +57,10 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+
+  gem 'better_errors'
+  gem 'guard'
+  gem 'guard-livereload'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
