@@ -31,6 +31,8 @@ gem 'devise'
 gem 'gravatar_image_tag'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'sprockets-rails'
+gem 'coffee-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false

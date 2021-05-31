@@ -14,12 +14,13 @@
  *= require_self
  */
 
- $link: #444;
- $link-hover: #222;
+$link: #444;
+$link-hover: #222;
 
- @import "bulma";
- @import "functions";
- 
+@import "bulma";
+@import "functions";
+
+
 .notification {
   border-radius: 0;
 }
